@@ -7,3 +7,4 @@ Create a new react components from my snippet
 
 #### Exemple
 `./new-react-components.sh ComponentName`
+`./new-test-component.sh WidgetName ComponentName`
