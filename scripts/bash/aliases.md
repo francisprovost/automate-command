@@ -1,11 +1,17 @@
 # Table of Contents
-1. [iterm](#iterm)
-2. [Grunt](#grunt)
-3. [npm](#npm)
-4. [Automate react](#automate-react)
-5. [Git flow](#git-flow)
-6. [Gulp](#gulp)
-7. [Shortcut](#shortcut)
+1. [Requirement] (#requirement)
+2. [Aliases] (#aliases)
+ 1. [iterm](#iterm)
+ 2. [Grunt](#grunt)
+ 3. [npm](#npm)
+ 4. [Automate react](#automate-react)
+ 5. [Git flow](#git-flow)
+ 6. [Gulp](#gulp)
+ 7. [Shortcut](#shortcut)
+
+# Requirement
+* iterm
+* zsh
 
 # Aliases
 ## iterm <a name="iterm"></a>
