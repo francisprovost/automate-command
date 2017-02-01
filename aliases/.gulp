@@ -1,0 +1,2 @@
+alias gbundle="gulp bundle"
+alias gbuild="gulp build"
