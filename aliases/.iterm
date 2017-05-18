@@ -1,1 +1,2 @@
+alias c="code"
 alias new-tab="open . -a iterm"
