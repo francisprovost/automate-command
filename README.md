@@ -10,5 +10,9 @@ Basic bash scripts to simplify my life
 Create a new react components from my snippet
 
 #### Exemple
-`./new-react-components.sh ComponentName`
-`./new-test-component.sh WidgetName ComponentName`
+* `./new-react-components.sh ComponentName`
+* `./new-test-component.sh WidgetName ComponentName`
+
+## Other Configs
+### Fonts
+* https://github.com/i-tu/Hasklig
