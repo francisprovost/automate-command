@@ -1,10 +1,10 @@
-# automate-command
+# Personal Configs
 Basic bash scripts to simplify my life
 
 ## List of scripts
 
 ### Aliases
-[List of my aliases] (https://github.com/francisprovost/automate-command/blob/master/scripts/bash/aliases.md)
+[List of my aliases](https://github.com/francisprovost/personal-configs/blob/master/scripts/bash/aliases.md)
 
 ### new-react-component.sh
 Create a new react components from my snippet
