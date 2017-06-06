@@ -16,3 +16,6 @@ Create a new react components from my snippet
 ## Other Configs
 ### Fonts
 * https://github.com/i-tu/Hasklig
+
+### ZSH Theme
+* https://github.com/denysdovhan/spaceship-zsh-theme
