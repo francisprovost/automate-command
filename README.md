@@ -1,5 +1,13 @@
 # Personal Configs
-Basic bash scripts to simplify my life
+
+## Apps
+### IDEs
+* [Cloud App](https://www.getcloudapp.com/)
+* [Intellij](https://www.jetbrains.com/idea/)
+* [iTerm2](https://www.iterm2.com/)
+* [VS Code](https://code.visualstudio.com/)
+* [Sequel Pro](https://www.sequelpro.com/)
+
 
 ## List of scripts
 
