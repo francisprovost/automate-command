@@ -2,12 +2,15 @@
 
 ## Apps
 ### IDEs
-* [Cloud App](https://www.getcloudapp.com/)
 * [Intellij](https://www.jetbrains.com/idea/)
-* [iTerm2](https://www.iterm2.com/)
 * [VS Code](https://code.visualstudio.com/)
 * [Sequel Pro](https://www.sequelpro.com/)
 
+### Terminal
+* [iTerm2](https://www.iterm2.com/)
+
+### Random
+* [Cloud App](https://www.getcloudapp.com/)
 
 ## List of scripts
 
@@ -24,6 +27,9 @@ Create a new react components from my snippet
 ## Other Configs
 ### Fonts
 * https://github.com/i-tu/Hasklig
+
+### Git
+* [git-confirm}(https://github.com/pimterry/git-confirm)
 
 ### ZSH Theme
 * https://github.com/denysdovhan/spaceship-zsh-theme
