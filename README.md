@@ -29,7 +29,7 @@ Create a new react components from my snippet
 * https://github.com/i-tu/Hasklig
 
 ### Git
-* [git-confirm}(https://github.com/pimterry/git-confirm)
+* [git-confirm](https://github.com/pimterry/git-confirm)
 
 ### ZSH Theme
 * https://github.com/denysdovhan/spaceship-zsh-theme
