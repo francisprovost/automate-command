@@ -90,6 +90,8 @@ alias gt="grunt test"
 alias new-component="~/dev/bash-command/scripts/react/new-react-component.sh"
 alias new-test-component="~/dev/bash-command/scripts/react/new-test-component.sh"
 alias go-widget="cd ~/dev/suppliers/widget-supplier/supplier/src/main/webapp/widgets"
+alias npmplz="rm -rf node_modules/ && rm -f package-lock.json && npm install"
+alias jspmplz="rm -rf jspm_modules/ && jspm install"
 
 alias nwatch="npm run watch --name:"
 alias tk="npm run karma"
