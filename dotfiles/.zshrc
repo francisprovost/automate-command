@@ -90,13 +90,10 @@ alias gt="grunt test"
 alias new-component="~/dev/bash-command/scripts/react/new-react-component.sh"
 alias new-test-component="~/dev/bash-command/scripts/react/new-test-component.sh"
 alias go-widget="cd ~/dev/suppliers/widget-supplier/supplier/src/main/webapp/widgets"
-alias npmplz="rm -rf node_modules/ && rm -f package-lock.json && npm install"
-alias jspmplz="rm -rf jspm_modules/ && jspm install"
 
 alias nwatch="npm run watch --name:"
 alias tk="npm run karma"
 alias tm="npm run mocha"
-
 alias c="code"
 alias new-tab="open . -a iterm"
 alias clr="clear"
@@ -107,6 +104,20 @@ alias gfrf="git flow release finish"
 
 alias gbundle="gulp bundle"
 alias gbuild="gulp build"
+
+# NPM && JSPM
+alias npmplz="rm -rf node_modules/ && rm -f package-lock.json && npm install"
+alias jspmplz="rm -rf jspm_modules/ && jspm install"
+alias ni='npm install'
+alias nid='npm install --save-dev'
+alias nig='npm install --global'
+alias nt='npm test'
+alias nit='npm install && npm test'
+alias nk='npm link'
+alias nr='npm run'
+alias ns='npm start'
+alias nf='npm cache clean && rm -rf node_modules && npm install'
+alias nlg='npm list --global --depth=0'
 
 function docker_build() { docker build -t $1 . }
 function docker_run() { docker run -p 8080:80 $1 }
