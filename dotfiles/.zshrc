@@ -81,8 +81,8 @@ eval $(thefuck --alias)
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
 alias run="grunt serve"
 alias tk="npm run karma"
 alias tm="npm run mocha"
@@ -102,9 +102,6 @@ alias gffs="git flow feature start"
 alias gfrs="git flow release start"
 alias gfrf="git flow release finish"
 
-alias gbundle="gulp bundle"
-alias gbuild="gulp build"
-
 # NPM && JSPM
 alias npmplz="rm -rf node_modules/ && rm -f package-lock.json && npm install"
 alias jspmplz="rm -rf jspm_modules/ && jspm install"
@@ -119,6 +116,7 @@ alias ns='npm start'
 alias nf='npm cache clean && rm -rf node_modules && npm install'
 alias nlg='npm list --global --depth=0'
 
+# Docker
 function docker_build() { docker build -t $1 . }
 function docker_run() { docker run -p 8080:80 $1 }
 function docker_exec() { docker exec -it $1 bash }
@@ -127,11 +125,20 @@ alias dckr.run=docker_run
 alias dckr.exec=docker_exec
 alias dckr.ps='docker ps'
 
+# AWS
 function connect_dev() { ssh aws-dev -t 'connect '$1 }
 function connect_prod() { ssh aws-prod -t 'connect '$1 }
 
 alias connect.dev=connect_dev
 alias connect.prod=connect_prod
+
+# Widgets Project
+alias gbundle="gulp bundle"
+alias gbuild="gulp build"
+alias gu="clr && gulp unit"
+alias wbu="clr && npm run build && npm run start"
+alias wbd="clr && npm run bundle"
+
 
 DEFAULT_USER=
 
