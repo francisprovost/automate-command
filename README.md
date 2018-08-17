@@ -8,6 +8,8 @@
 
 ### Terminal
 * [iTerm2](https://www.iterm2.com/)
+* [exa](https://github.com/ogham/exa)
+* [bat](https://github.com/sharkdp/bat)
 
 ### Random
 * [Cloud App](https://www.getcloudapp.com/)
