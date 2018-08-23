@@ -85,7 +85,7 @@ SPACESHIP_PROMPT_ORDER=(
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git cloudapp kubectl)
+plugins=(git cloudapp kubectl z)
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
@@ -205,3 +205,5 @@ source "/Users/fprovost/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
 prompt spaceship
+
+SPACESHIP_GIT_BRANCH_COLOR=yellow
