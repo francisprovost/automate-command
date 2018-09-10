@@ -1,1 +1,4 @@
+mkdir ~/dev
+mkdir /Users/fprovost/Screenshots
+
 defaults write com.apple.screencapture location /Users/fprovost/Screenshots
