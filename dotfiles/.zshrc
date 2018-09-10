@@ -71,6 +71,10 @@ alias lt3="lt 3"
 alias gffs="git flow feature start"
 alias gfrs="git flow release start"
 alias gfrf="git flow release finish"
+alias gpfl="git push --force-with-lease"
+### Git commitizen aliases
+alias gcz="git cz"
+alias gcza="git cz -a"
 
 ## NPM && JSPM
 alias npmplz="npm cache clean && rm -rf node_modules/ && rm -f package-lock.json && npm install"
