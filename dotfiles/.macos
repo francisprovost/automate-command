@@ -1,4 +1,9 @@
 mkdir ~/dev
 mkdir /Users/fprovost/Screenshots
 
+# Change screenshot location
 defaults write com.apple.screencapture location /Users/fprovost/Screenshots
+
+# Disable Smart Quotes/Dashes
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
