@@ -71,7 +71,7 @@ alias lt3="lt 3"
 alias gffs="git flow feature start"
 alias gfrs="git flow release start"
 alias gfrf="git flow release finish"
-alias gpfl="git push --force-with-lease"
+alias gcleanup="git fetch -p && for branch in `git branch -vv | grep ': gone]' | awk '{print $1}'`; do git branch -D $branch; done"
 ### Git commitizen aliases
 alias gcz="git cz"
 alias gcza="git cz -a"
