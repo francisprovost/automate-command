@@ -41,7 +41,7 @@ SPACESHIP_PROMPT_ORDER=(
 )
 
 HYPHEN_INSENSITIVE="true"
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 plugins=(git cloudapp kubectl z docker npm vscode)
 eval $(thefuck --alias)
 
