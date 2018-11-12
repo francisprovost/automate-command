@@ -107,6 +107,9 @@ alias connect.prod=connect_prod
 alias c="code"
 alias chrome-debug="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --profile-directory=debug"
 
+## Other
+alias weather="curl http://wttr.in/montreal"
+
 # Set Spaceship ZSH as a prompt
 source "/Users/fprovost/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 autoload -U promptinit; promptinit
