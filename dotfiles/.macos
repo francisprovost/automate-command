@@ -7,3 +7,46 @@ defaults write com.apple.screencapture location /Users/fprovost/Screenshots
 # Disable Smart Quotes/Dashes
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Install Brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install all my apps
+brew cask install   vscode \
+                    chrome \
+                    firefox \
+                    homebrew/cask-versions/firefox-developer-edition \
+                    sequel-pro \
+                    insomnia \
+                    iterm2 \
+                    slack \
+                    dash \
+                    notion \
+                    spotify \
+                    alfred \
+                    enpass \
+                    bartender \
+                    bettertouchtool \
+                    caffeine \
+                    caprine \
+                    cloudapp \
+                    docker \
+                    dropbox \
+                    karabiner-elements \
+                    rocket \
+                    spectacle \
+                    sublime-text \
+                    toggl
+
+# Install all my CLI apple
+brew install    bat \
+                exa \
+                git \
+                httpie \
+                node \
+                zsh \
+                zsh-completions \
+                zsh-syntax-highlighting
+
+# Install zsh theme
+npm install -g spaceship-prompt
