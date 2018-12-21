@@ -10,6 +10,8 @@
 * [iTerm2](https://www.iterm2.com/)
 * [exa](https://github.com/ogham/exa)
 * [bat](https://github.com/sharkdp/bat)
+* Plugins
+  * [Z](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/z)
 
 ### Random
 * [Cloud App](https://www.getcloudapp.com/)
