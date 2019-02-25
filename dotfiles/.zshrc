@@ -109,6 +109,7 @@ alias chrome-debug="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chro
 
 ## Other
 alias weather="curl http://wttr.in/montreal"
+alias hostfile="sudo vi /etc/hosts"
 
 # Set Spaceship ZSH as a prompt
 source "/Users/fprovost/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
@@ -129,3 +130,8 @@ PERL_MM_OPT="INSTALL_BASE=/Users/fprovost/perl5"; export PERL_MM_OPT;
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+fpath=($fpath "/Users/fprovost/.zfunctions")
