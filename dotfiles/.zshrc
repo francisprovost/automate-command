@@ -42,7 +42,7 @@ SPACESHIP_PROMPT_ORDER=(
 
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="false"
-plugins=(git cloudapp kubectl z docker npm vscode)
+plugins=(git cloudapp kubectl z docker npm yarn vscode)
 eval $(thefuck --alias)
 
 # User configuration
@@ -77,8 +77,10 @@ alias gcz="git cz"
 alias gcza="git cz -a"
 
 ## NPM && JSPM
-alias npmplz="npm cache clean && rm -rf node_modules/ && rm -f package-lock.json && npm install"
+### JSPM
 alias jspmplz="rm -rf jspm_modules/ && jspm install"
+### NPM
+alias npmplz="npm cache clean && rm -rf node_modules/ && rm -f package-lock.json && npm install"
 alias ni='npm install'
 alias nid='npm install --save-dev'
 alias nig='npm install --global'
@@ -88,6 +90,8 @@ alias nk='npm link'
 alias nr='npm run'
 alias ns='npm start'
 alias nlg='npm list --global --depth=0'
+### YARN
+alias ytw='yarn test --watch'
 
 ## Docker
 alias dps='docker ps'
@@ -110,6 +114,7 @@ alias chrome-debug="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chro
 ## Other
 alias weather="curl http://wttr.in/montreal"
 alias hostfile="sudo vi /etc/hosts"
+alias sshconfig="sudo vi ~/.ssh/config"
 
 # Set Spaceship ZSH as a prompt
 source "/Users/fprovost/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
