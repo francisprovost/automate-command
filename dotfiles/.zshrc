@@ -59,6 +59,7 @@ alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias new-tab="open . -a iterm"
 alias clr="clear"
+alias reload-zsh="exec zsh"
 
 ## Terminal override
 alias cat="bat"
@@ -72,6 +73,8 @@ alias gffs="git flow feature start"
 alias gfrs="git flow release start"
 alias gfrf="git flow release finish"
 alias gcleanup="git fetch -p && for branch in `git branch -vv | grep ': gone]' | awk '{print $1}'`; do git branch -D $branch; done"
+alias gpub="git push --set-upstream origin $(git_current_branch)"
+alias gstashall="git stash save --include-untracked"
 ### Git commitizen aliases
 alias gcz="git cz"
 alias gcza="git cz -a"
@@ -110,6 +113,7 @@ alias connect.prod=connect_prod
 ## Apps Shortcuts
 alias c="code"
 alias chrome-debug="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --profile-directory=debug"
+alias v="vim"
 
 ## Other
 alias weather="curl http://wttr.in/montreal"
