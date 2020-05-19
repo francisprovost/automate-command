@@ -15,6 +15,9 @@
 
 ### Random
 * [Cloud App](https://www.getcloudapp.com/)
+* Microsoft To-Do
+* Logi Options (MX Master)
+* Miro - Whiteboarding
 
 ## List of scripts
 
