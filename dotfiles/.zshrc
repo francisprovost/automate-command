@@ -1,5 +1,6 @@
+ZSH_DISABLE_COMPFIX=true
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/fprovost/.oh-my-zsh
+export ZSH=/Users/francisprovost/.oh-my-zsh
 
 # Theme config
 ZSH_THEME="spaceship"
@@ -30,7 +31,7 @@ SPACESHIP_PROMPT_ORDER=(
   pyenv         # Pyenv section
   dotnet        # .NET section
   ember         # Ember.js section
-  kubecontext   # Kubectl context section
+  # kubecontext   # Kubectl context section
   exec_time     # Execution time
   line_sep      # Line break
   battery       # Battery level and status
@@ -39,6 +40,7 @@ SPACESHIP_PROMPT_ORDER=(
   exit_code     # Exit code section
   char          # Prompt character
 )
+SPACESHIP_GIT_BRANCH_COLOR=yellow
 
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="false"
@@ -121,20 +123,17 @@ alias hostfile="sudo vi /etc/hosts"
 alias sshconfig="sudo vi ~/.ssh/config"
 
 # Set Spaceship ZSH as a prompt
-source "/Users/fprovost/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+source "/Users/francisprovost/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 autoload -U promptinit; promptinit
 prompt spaceship
 
-# ZSH Theme override
-SPACESHIP_GIT_BRANCH_COLOR=yellow
-
 # ¯\_(ツ)_/¯
 DEFAULT_USER=
-PATH="/Users/fprovost/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/Users/fprovost/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/Users/fprovost/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/Users/fprovost/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/Users/fprovost/perl5"; export PERL_MM_OPT;
+PATH="/Users/francisprovost/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/Users/francisprovost/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/Users/francisprovost/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/Users/francisprovost/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/francisprovost/perl5"; export PERL_MM_OPT;
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -143,4 +142,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-fpath=($fpath "/Users/fprovost/.zfunctions")
+fpath=($fpath "/Users/francisprovost/.zfunctions")
