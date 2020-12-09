@@ -1,0 +1,7 @@
+[user]
+	email = me@francisprovost.com
+	name = Francis Provost
+[core]
+	editor = vim
+[alias]
+	rb-master = !git checkout master && git pull && git checkout - && git rebase master;
