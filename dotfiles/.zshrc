@@ -97,6 +97,7 @@ alias ns='npm start'
 alias nlg='npm list --global --depth=0'
 ### YARN
 alias ytw='yarn test --watch'
+alias yvp='yv --patch --no-git-tag-version'
 
 ## Docker
 alias dps='docker ps'
@@ -116,6 +117,10 @@ alias connect.prod=connect_prod
 alias c="code"
 alias chrome-debug="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --profile-directory=debug"
 alias v="vim"
+
+## Ferlab Alias
+alias start-fe="cd ~/dev/ferlab/clin-frontend && nvm use && pnpm start"
+alias start-keycloack="cd ~/dev/ferlab/devops/Keycloak && POSTGRESQL_PASSWORD=1q2w3e4r KEYCLOAK_PASSWORD=1q2w3e4r docker-compose -f docker-compose-local.yml up"
 
 ## Other
 alias weather="curl http://wttr.in/montreal"
