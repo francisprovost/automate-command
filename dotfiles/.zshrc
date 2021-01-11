@@ -1,6 +1,6 @@
 ZSH_DISABLE_COMPFIX=true
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/francisprovost/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Theme config
 ZSH_THEME="spaceship"
@@ -44,8 +44,7 @@ SPACESHIP_GIT_BRANCH_COLOR=yellow
 
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="false"
-plugins=(git cloudapp kubectl z docker npm yarn vscode)
-eval $(thefuck --alias)
+plugins=(git kubectl z docker npm yarn vscode)
 
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
