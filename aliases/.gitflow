@@ -1,3 +1,0 @@
-alias gffs="git flow feature start"
-alias gfrs="git flow release start"
-alias gfrf="git flow release finish"

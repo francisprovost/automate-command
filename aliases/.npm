@@ -1,3 +1,0 @@
-alias nwatch="npm run watch --name:"
-alias tk="npm run karma"
-alias tm="npm run mocha"
